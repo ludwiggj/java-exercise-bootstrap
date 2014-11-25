@@ -1,7 +1,18 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
- 
+
+/* 
+How to use this project
+
+* Copy/clone to a new folder
+* Add any extra dependencies to build.gradle and instructions to a README* file
+* ZIP and share
+** Run './gradlew zip'
+** The zip is created in 'build/distributions/'
+
+ */
+
 dependencies{
 	compile([])
 	
@@ -11,4 +22,15 @@ dependencies{
 	])
 	 
 	runtime([])
+}
+
+repositories {
+  mavenCentral()
+}
+
+task zip(type: Zip) {
+  from '.'
+  baseName = "${project.name}"
+  classifier = 'src'
+  includes = ['src/**', 'build.gradle', 'gradle/**', 'gradlew*', 'README*']
 }

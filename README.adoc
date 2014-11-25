@@ -1,0 +1,11 @@
+= README
+How to get started
+
+* Unzip to your usual coding workspace
+* Run './gradlew clean test' to download and cache dependencies
+* If you're an Eclipse user
+** Run './gradlew eclipse' 
+** import the resulting project
+* If you're an IntellJ IDEA user, either
+** Import the project from the build.gradle  OR
+** Run './gradlew idea' and import
