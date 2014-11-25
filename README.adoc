@@ -1,7 +1,7 @@
 = README
 How to get started
 
-* Unzip to your usual coding workspace
+* Unzip to your usual coding workspace **into a new, empty directory**
 * Run './gradlew clean test' to download and cache dependencies
 * If you're an Eclipse user
 ** Run './gradlew eclipse' 
