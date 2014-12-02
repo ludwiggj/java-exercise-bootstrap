@@ -13,11 +13,41 @@
 * Remember to solve things as simply as possible
 * Remember to refactor after each passing test
 
+
+
+
+
+
+
+
+
+
+
 2. Allow the Add method to handle an unknown amount of numbers
+
+
+
+
+
+
+
+
+
+
 
 3. Allow the Add method to handle newlines between numbers instead of commas.
 * The following input is valid: "1\n2,3" (will equal 6)
 * The following input is not valid: "1,\n" (no need to handle this in your code)
+
+
+
+
+
+
+
+
+
+
 
 4. Support different delimiters
 * To change a delimiter, the beginning of the string will contain a separate line that
@@ -28,6 +58,16 @@ for example
 should return three since the delimiter is ';'.
 * The first line is optional, so all existing scenarios should still be supported, (existing
 tests should still pass).
+
+
+
+
+
+
+
+
+
+
 
 5. Calling Add with a negative number should throw an exception "negatives not allowed". The
 exception message should include the negative that was passed. If there are multiple negatives,
