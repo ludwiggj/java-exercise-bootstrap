@@ -7,7 +7,6 @@ How to get started
 * If you're an Eclipse user
 ** Run `./gradlew eclipse` or `.\gradlew eclipse`
 ** Import the resulting project using File .. Import .. General -> Existing Projects into Workspace
-** Add JUnit to the Classpath by right clicking on the top-level project directory in Eclipse, and selecting Build Path .. Add Libraries. Select JUnit, Next> and then JUnit 4, Finish.
 
 * If you're an IntellJ IDEA user, either
 ** Import the project from the build.gradle using File .. Import Project .. and selecting the build.gradle file
